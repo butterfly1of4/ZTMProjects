@@ -1,10 +1,16 @@
 h1 {
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Roboto', sans-serif; */
+
+	
 }
 
 .robots {
+	display: flex;
+	justify-content: center;
+	
 }
+
 
 .head, 
 .left_arm, 
@@ -24,12 +30,14 @@ h1 {
 } 
 
 .eyes {
+	display: flex;
+	align-content: center;
 	
 }
 
 .head:hover {
 	width: 300px;
-    transition: 1s ease-in-out;
+    transition: 1s ease-in-out; 
 }
 
 .upper_body { 
@@ -48,10 +56,24 @@ h1 {
 	margin-right: 10px; 
 } 
 
+.left_arm:hover {
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 .right_arm { 
 	margin-left: 10px; 
 } 
-
+.right_arm:hover {
+	-webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
 .torso { 
 	width: 200px; 
 	height: 200px;
@@ -63,7 +85,8 @@ h1 {
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
-
+	display: flex;
+	align-items: center;
 } 
 
 .left_leg, .right_leg { 
@@ -86,6 +109,14 @@ h1 {
 
 .right_leg { 
 	margin-left: 30px; 
+}
+
+.right_leg:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
 }
 
 .left_eye, .right_eye { 
