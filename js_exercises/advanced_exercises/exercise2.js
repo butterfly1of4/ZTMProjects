@@ -6,7 +6,8 @@ function experiencePoints() {
         return 1;
     }
 }
-
+// var experiencePoints = winBattlle() ? experiencePoints =10 : experiencePoints =1; 
+// experiencePoints()
 //Using this function, answer the questions below:
 function moveCommand(direction) {
     var whatHappens;
@@ -30,7 +31,7 @@ function moveCommand(direction) {
     }
     return whatHappens;
 }
-
+moveCommand()
 //#2 return value when moveCommand("forward");
 
 //#3 return value when moveCommand("back");
