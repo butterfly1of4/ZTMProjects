@@ -7,162 +7,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>JS Review Practice</title>
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <h1> This is a test </h1>
-
-<div>
-      <h4>  
-## Exercise 1
-</h4>  
-
-Guess what answers you would get if you ran this in the Javascript Console in Google Chrome. Once you have an answer to the questions then check them by copying them and running it in the console yourself line by line 
-
-Evaluate the below:
-5 + "34"
-5 - "4"
-10 % 5
-5 % 10
-"Java" + "Script"
-" " + " "
-" " + 0
-true + true
-true + false
-false + true
-false - true
-3 - 4
-"Bob" - "bill"
-
-Evaluate the below comparisons:
-5 >= 1
-0 === 1
-4 <= 1
-1 != 1
-"A" > "B"
-"B" < "C"
-"a" > "A"
-"b" < "A"
-true === false
-true != true
-
-Make the string: "Hi There! It's "sunny" out" by using the + sign
-</div>
-
-<div>
-    <h4>
-##Exercise 2
-</h4>
-Evaluate what answers you would get if you ran this in the Javascript Console in Google Chrome. Answer the questions then check them by copying them and running it in the console yourself line by line 
-
-Add variable "firstName" and "lastName" // so that they equal your name
-
-Create a variable that holds the answer // of "firstName" + " " + "lastName"
-
-Evaluate this question. What is a + b?
-var a = 34;
-var b = 21;
-a = 2;
-a + b // what is the answer here?
-
-What is c equal to?
-var c;
-</div>
-
-<div>
-    <h4>
-## Exercise 3
-</h4>
-// Make a Calculator! using prompt(), and variables, make a program that does the following:
-// 1. Prompts the user for first number.
-// 2. Stores that first number
-// 3. Prompts the user for the second number.
-// 4. stores that number and responds with the SUM by using an alert.  
+        <h1>JS Advanced Exercises</h1>   
+        
+<script src="/js_exercises/advanced_exercises/exercise1.js"></script>
 
 
-// BONUS: Make a program that can subtract, multiply, and also divide!
-    </div>
 
-
-<div>   
-<h4>
-## Exercise 4
-</h4>
-Make a keyless car!
-This car will only let you drive if you are over 18. Make it do the following:
-
-Using prompt() and alert(), ask a user for their age.
-IF they say they are below 18, respond with:
-"Sorry, you are too young to drive this car. Powering off"
-
-IF they say they are 18, respond with:
-"Congratulations on your first year of driving. Enjoy the ride!"
-
-IF they say they are over 18, respond with:
-"Powering On. Enjoy the ride!"
-</div>
-
-<div>
-    <h4>
-## Exercise 5
-</h4>
-Make a keyless car EVEN BETTER!
-We are improving our car from previous exercise now.
-// Solutions to future exercises will be in the .js file (meaning Javascript file) from now on.
-
-var age = prompt("What is your age?");
-
-if (Number(age) < 18) {
-	alert("Sorry, you are too yound to drive this car. Powering off");
-} else if (Number(age) > 18) {
-	alert("Powering On. Enjoy the ride!");
-} else if (Number(age) === 18) {
-	alert("Congratulations on your first year of driving. Enjoy the ride!");
-}
-
-1. Make the above code have a function called checkDriverAge(). Whenever you call this function, you will get prompted for age. Use Function Declaration to create this function.
-Notice the benefit in having checkDriverAge() instead of copying and pasting the function everytime?
-2. Create another function that does the same thing, called checkDriverAge2() using Function Expression.
-
-BONUS: Instead of using the prompt. Now, only use console.log and make the checkDriverAge() function accept an argument of age, so that if you enter:
-checkDriverAge(92);
-it returns "Powering On. Enjoy the ride!"
-</div>
-
-<div>
-    <h4>
-## Exercise 6 
-</h4>
-Using this array,
-var array = ["Banana", "Apples", "Oranges", "Blueberries"];
-
-1. Remove the Banana from the array.
-2. Sort the array in order.
-3. Put "Kiwi" at the end of the array.
-4. Remove "Apples" from the array.
-5. Sort the array in reverse order. (Not alphabetical, but reverse the current Array i.e. ['a', 'c', 'b'] becomes ['b', 'c', 'a'])
-
-you should have at the end:
-["Kiwi", "Oranges", "Blueberries"]
-
-Using this array,
- var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
-access "Oranges".
-</div>
-
-<div>
-    <h4>
-## Exercise 7
-</h4>
-Create an object and an array which we will use in our facebook exercise. 
-
-1. Create an object that has properties "username" and "password". Fill those values in with strings.
-2. Create an array which contains the object you have made above and name the array "database".
-3. Create an array called "newsfeed" which contains 3 objects with properties "username" and "timeline".
-</div>
-        <script src="index.js" async defer></script>
     </body>
 </html>

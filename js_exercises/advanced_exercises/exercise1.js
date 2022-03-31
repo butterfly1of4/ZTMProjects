@@ -8,7 +8,8 @@ function q1() {
     }
     alert(a);
 }
-
+q1()
+/*
 //#2
 var a = 0;
 function q2() {
@@ -44,3 +45,4 @@ if (true) {
     alert(a);
 }
 alert(a);
+*/
